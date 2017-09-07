@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>My Wallpaper</title>
+</head>
+<body>
+    <header>
+        <h1>My Wallpaper</h1>
+    </header>
+    <main>
+    <div class="lightbox hidden">
+    </div>
+    <div class="selected-image hidden">
+        <img src="" class="js-selected-image">
+        <div class="description">
+        </div>
+    </div>
+  <div class="form">
+      <form action="#" class="js-form">
+          <label for="userinput"></label>
+          <input type="text" id="userinput" class="js-input" autocomplete="on">
+          <button type="submit" class="submit-button">></button>
+      </form>
+  </div>
+  <div class="js-search-results row">
+  </div>
+  <button class="js-more-results hidden">More Results</button>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

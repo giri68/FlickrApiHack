@@ -1,0 +1,97 @@
+body {
+  background-color: #424242;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px #202020;
+}
+
+.hidden {
+  display: none;
+}
+
+.lightbox {
+  background-color: black;
+  opacity: 0.8;
+  overflow: scroll;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.selected-image {
+  z-index: 11;
+  position: fixed;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  display: block;
+  -webkit-box-shadow: outset 0 0 40px 20px black;
+  box-shadow: outset 0 0 40px 20px black;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: lightblue;
+}
+
+img {
+  box-shadow: 0px 0px 10px #202020;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-item {
+  display: inline-block;
+  max-width:100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10px
+}
+
+input {
+  width: 25%;
+  height: 35px;
+  font-size: 20px;
+  padding-top: 6px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-shift {
+  margin-top: 5px;
+}
+
+button {
+  font-size: 25px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
+
+.js-more-results {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: block;
+}

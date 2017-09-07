@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-4 {
+  float: left;
+  width: 100%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  .col-4 {
+    width: 30%;
+  }
+}
+
+.box {
+  margin-bottom: 5%;
+  margin-left: 1.04166666%;
+  margin-right: 1.04166666%;
+  height: 300px;
+}
